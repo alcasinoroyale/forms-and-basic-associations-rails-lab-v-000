@@ -1,3 +1,5 @@
 class Song < ActiveRecord::Base
-  # add associations here
+  has_one :title
+  belongs_to :artist
+  
 end
