@@ -1,3 +1,4 @@
 class Artist < ActiveRecord::Base
-  # add associations here
+  has_one :name
+  
 end
